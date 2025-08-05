@@ -21,7 +21,7 @@ public class Calculator {
     public static double divide(double a, double b) {
         if (b == 0) {
             System.out.println("Error: Cannot divide by zero!");
-            return Double.NaN; // Not a Number
+            return Double.NaN; 
         }
         return a / b;
     }
